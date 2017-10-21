@@ -1,0 +1,16 @@
+{
+    "name": "itsmy-fyi",
+    "version": "1.0.0",
+    "description": "Site hosting user about me pages",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Chris Milliano <millianoc@gmail.com>",
+    "license": "UNLICENCED",
+    "private": true,
+    "dependencies": {
+        "express": "^4.16.2"
+    }
+}
