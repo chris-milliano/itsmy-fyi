@@ -1,6 +1,18 @@
+// Libs for general app
 const express = require('express');
 const app = express();
 
+
+
+//
+app.get('/sms', function(req, res) {
+
+    console.log("hit sms");
+
+    res.json({ message: "sms sent" });
+
+    console.log("sms out");
+});
 
 
 // TODO: This is where all server/api routing will happen
